@@ -1,11 +1,11 @@
 import React from 'react';
-
+import logo from '../../src/assets/logo.png'
 const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navbar-start">
                 <div className="flex items-center gap-1 font-bold text-xl">
-                    <img className="w-10" src="/logo.png" /> Ai Hub
+                    <img className="w-10" src={logo} /> Ai Hub
                 </div>
             </div>
             <div className="navbar-center hidden md:flex">
@@ -25,7 +25,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-5">
-                <a className="btn bg-red-500 rounded-full text-white">Get in Touch</a>
+                <a className="btn bg-red-500 px-8 py-2 rounded-full text-white">Get in Touch</a>
             </div>
         </div>
     );
