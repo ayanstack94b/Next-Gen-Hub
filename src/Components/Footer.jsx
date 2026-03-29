@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from '../../src/assets/logo.png'
 const Footer = () => {
     return (
         <div>
@@ -9,7 +9,7 @@ const Footer = () => {
                         {/* Logo & Description */}
                         <div className="md:col-span-5">
                             <div className="flex items-center gap-3 mb-6">
-                                <img src="/logo.png" alt="AI Hub Logo" className="h-10 w-auto" />
+                                <img src={logo} alt="AI Hub Logo" className="h-10 w-auto" />
                                 <h2 className="text-3xl font-bold tracking-tighter text-white">
                                     AI Hub
                                 </h2>
